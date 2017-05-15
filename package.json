@@ -1,0 +1,41 @@
+{
+  "name": "time-events",
+  "version": "1.0.0",
+  "description": "Javascript library to allow subscribing on time change events like onTick, onSecondChange, onMinuteChange, onHourChange, onDayChange, onWeekChange, onMonthChange and onYearChange",
+  "main": "time-events.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipiz/time-events.git"
+  },
+  "keywords": [
+    "nodejs",
+    "time",
+    "events",
+    "change"
+  ],
+  "author": "Roel B <roel.mail73@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ipiz/time-events/issues"
+  },
+  "homepage": "https://github.com/ipiz/time-events#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-jest": "^20.0.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^20.0.1",
+    "regenerator-runtime": "^0.10.5"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1"
+  },
+  "jest": {
+    "transform": {}
+  }
+}
