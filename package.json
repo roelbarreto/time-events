@@ -1,10 +1,11 @@
 {
   "name": "time-events",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript library to allow subscribing on time change events like onTick, onSecondChange, onMinuteChange, onHourChange, onDayChange, onWeekChange, onMonthChange and onYearChange",
-  "main": "time-events.js",
+  "main": "./dist/time-events.js",
   "scripts": {
     "start": "babel-node index.js",
+    "build": "babel ./utils.js --out-file ./dist/utils.js && babel ./time-events.js --out-file ./dist/time-events.js",
     "test": "jest"
   },
   "repository": {
