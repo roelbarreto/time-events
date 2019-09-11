@@ -1,6 +1,7 @@
 # time-events
 Javascript library to allow subscribing on time change events like: millisecondsChange, secondsChange, minutesChange, hoursChange, dayChange, dateChange, weekChange, monthChange and yearChange
 
+[![npm version](https://badge.fury.io/js/time-events.svg)](http://badge.fury.io/js/time-events)
 [![NPM](https://nodei.co/npm/time-events.png)](https://npmjs.org/package/time-events)
 
 ## Table Of Contents
